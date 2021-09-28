@@ -1,0 +1,94 @@
+@font-face {
+    font-family: flaticon;
+    src: url(../mycss/fonts/flaticon.eot);
+    src: url(../mycss/fonts/flaticon.eot?#iefix) format("embedded-opentype"),
+      url(../mycss/fonts/flaticon.woff2) format("woff2"),
+      url(../mycss/fonts/flaticon.woff) format("woff"),
+      url(../mycss/fonts/flaticon.ttf) format("truetype"),
+      url(..mycss/fonts/flaticon.svg#Flaticon) format("svg");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+      font-family: flaticon;
+      src: url(../mycss/fonts/flaticon.svg#Flaticon) format("svg");
+    }
+  }
+
+[class^="flaticon-"]:before, 
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after
+ {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-ui:before {
+    content: "\f101";
+}
+.flaticon-computer:before {
+    content: "\f102";
+}
+.flaticon-desktop-computer:before {
+    content: "\f103";
+}
+.flaticon-chip:before {
+    content: "\f104";
+}
+.flaticon-technical-support:before {
+    content: "\f105";
+}
+.flaticon-analysis:before {
+    content: "\f106";
+}
+.flaticon-smartphone:before {
+    content: "\f107";
+}
+.flaticon-smartphone-1:before {
+    content: "\f108";
+}
+.flaticon-seo:before {
+    content: "\f109";
+}
+.flaticon-website:before {
+    content: "\f10a";
+}
+.flaticon-writing:before {
+    content: "\f10b";
+}
+.flaticon-machine-learning:before {
+    content: "\f10c";
+}
+.flaticon-computer-1:before {
+    content: "\f10d";
+}
+.flaticon-art:before {
+    content: "\f10e";
+}
+.flaticon-web-design:before {
+    content: "\f10f";
+}
+.flaticon-graphic-design:before {
+    content: "\f110";
+}
+.flaticon-technical-support-1:before {
+    content: "\f111";
+}
+.flaticon-customer:before {
+    content: "\f112";
+}
+.flaticon-vehicle:before {
+    content: "\f113";
+}
+.flaticon-consult:before {
+    content: "\f114";
+}

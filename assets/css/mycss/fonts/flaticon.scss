@@ -1,0 +1,121 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?05faeb9ff041e602262df2355594278c") format("truetype"),
+url("./flaticon.woff?05faeb9ff041e602262df2355594278c") format("woff"),
+url("./flaticon.woff2?05faeb9ff041e602262df2355594278c") format("woff2"),
+url("./flaticon.eot?05faeb9ff041e602262df2355594278c#iefix") format("embedded-opentype"),
+url("./flaticon.svg?05faeb9ff041e602262df2355594278c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "ui": "\f101",
+    "computer": "\f102",
+    "desktop-computer": "\f103",
+    "chip": "\f104",
+    "technical-support": "\f105",
+    "analysis": "\f106",
+    "smartphone": "\f107",
+    "smartphone-1": "\f108",
+    "seo": "\f109",
+    "website": "\f10a",
+    "writing": "\f10b",
+    "machine-learning": "\f10c",
+    "computer-1": "\f10d",
+    "art": "\f10e",
+    "web-design": "\f10f",
+    "graphic-design": "\f110",
+    "technical-support-1": "\f111",
+    "customer": "\f112",
+    "vehicle": "\f113",
+    "consult": "\f114",
+    "right-arrow": "\f115",
+    "presentation": "\f116",
+    "coworking": "\f117",
+    "problem-solving": "\f118",
+);
+
+.flaticon-ui:before {
+    content: map-get($flaticon-map, "ui");
+}
+.flaticon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.flaticon-desktop-computer:before {
+    content: map-get($flaticon-map, "desktop-computer");
+}
+.flaticon-chip:before {
+    content: map-get($flaticon-map, "chip");
+}
+.flaticon-technical-support:before {
+    content: map-get($flaticon-map, "technical-support");
+}
+.flaticon-analysis:before {
+    content: map-get($flaticon-map, "analysis");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-smartphone-1:before {
+    content: map-get($flaticon-map, "smartphone-1");
+}
+.flaticon-seo:before {
+    content: map-get($flaticon-map, "seo");
+}
+.flaticon-website:before {
+    content: map-get($flaticon-map, "website");
+}
+.flaticon-writing:before {
+    content: map-get($flaticon-map, "writing");
+}
+.flaticon-machine-learning:before {
+    content: map-get($flaticon-map, "machine-learning");
+}
+.flaticon-computer-1:before {
+    content: map-get($flaticon-map, "computer-1");
+}
+.flaticon-art:before {
+    content: map-get($flaticon-map, "art");
+}
+.flaticon-web-design:before {
+    content: map-get($flaticon-map, "web-design");
+}
+.flaticon-graphic-design:before {
+    content: map-get($flaticon-map, "graphic-design");
+}
+.flaticon-technical-support-1:before {
+    content: map-get($flaticon-map, "technical-support-1");
+}
+.flaticon-customer:before {
+    content: map-get($flaticon-map, "customer");
+}
+.flaticon-vehicle:before {
+    content: map-get($flaticon-map, "vehicle");
+}
+.flaticon-consult:before {
+    content: map-get($flaticon-map, "consult");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-presentation:before {
+    content: map-get($flaticon-map, "presentation");
+}
+.flaticon-coworking:before {
+    content: map-get($flaticon-map, "coworking");
+}
+.flaticon-problem-solving:before {
+    content: map-get($flaticon-map, "problem-solving");
+}
